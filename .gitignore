@@ -1,11 +1,3 @@
-data/*
-!data/empty.txt
-models/*
-results/*
-src/*.json
-src/*.xlsx
-searxng/settings.yml.new
-searxng/uwsgi.ini.new
 
 
 

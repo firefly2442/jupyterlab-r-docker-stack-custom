@@ -1,6 +1,6 @@
-# jupyterlab-r-docker-stack-helm
+# jupyterlab-r-docker-stack-custom
 
-A customized version of [jupyterlab-r-docker-stack](https://gitlab.com/b-data/jupyterlab/r-project/docker-stack) with additional packages and a Helm chart for deployment to Kubernetes.
+A slightly customized version of [jupyterlab-r-docker-stack](https://gitlab.com/b-data/jupyterlab/r-project/docker-stack) with additional packages for deployment to Kubernetes.
 
 ## Building
 

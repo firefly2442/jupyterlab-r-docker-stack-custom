@@ -5,7 +5,7 @@ USER root
 
 # https://docs.docker.com/build/guide/mounts/#add-a-cache-mount
 RUN --mount=type=cache,target=/root/.cache/pip,sharing=locked pip install --prefix=/usr/local --break-system-packages --root-user-action=ignore \
-    tqdm scikit-learn spacy nltk scipy numpy transformers pandas matplotlib plotly seaborn
+    tqdm scikit-learn spacy nltk scipy numpy transformers pandas matplotlib plotly seaborn pyspark
 
 USER jovyan
 
